@@ -43,7 +43,8 @@ client.channels.get("506147653248221204").send(`${ToRnEdO [Math.floor(Math.rando
 client.on('message', message => {
 
   if (message.author.bot) return;
-	if(msg.author.id !== '416643173239226388') return;
+if(message.author.id !== '416643173239226388') return;
+
   if (!message.content.startsWith(prefix)) return;
 
 
