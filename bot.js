@@ -17,7 +17,7 @@ const fs = require('fs');
 
 
 
-const prefix = "1"
+const prefix = "11"
 
 client.on('ready', () => {
   console.log('cxxxx[]̲̅ ̲̅ ̲̅ ̲̅.̲̅ ̲̅ ̲̅.̲̅ ̲̅ ̲̅.̲̅ ̲̅ ̲̅.̲̅ ̲̅ ̲̅.̲̅ ̲̅ ̅/')
@@ -43,7 +43,7 @@ client.channels.get("472078775568564234").send(`${ToRnEdO [Math.floor(Math.rando
 client.on('message', message => {
 
   if (message.author.bot) return;
-if(message.author.id !== '416643173239226388') return;
+if(message.author.id !== '472078775568564234') return;
 
   if (!message.content.startsWith(prefix)) return;
 
